@@ -132,25 +132,15 @@ app.listen(3000, () => {
 - Faça o push para o branch (git push origin nova-feature).
 - Abra um pull request.
 
-# Licença de Uso - Automatizador de Holerites
+# Licença de Uso 
 
-Este software ("Automatizador de Holerites") foi desenvolvido por Paulo Eduardo Moretti. Ao utilizar, modificar ou distribuir este software, você concorda com os seguintes termos:
+Este software foi desenvolvido por Paulo Eduardo Moretti. Ao utilizar, modificar ou distribuir este software, você concorda com os seguintes termos:
 
 ## Permissões
 
 - **Uso pessoal**: Você pode utilizar este software para uso pessoal e projetos próprios.
 - **Modificações**: Você pode modificar o código-fonte para adaptar o software às suas necessidades, desde que as modificações sejam mantidas em caráter privado ou interno.
 - **Distribuição**: Você pode distribuir o software original ou modificado, desde que mantenha esta licença incluída em todas as cópias distribuídas.
-
-## Restrições
-
-- **Uso comercial**: O uso deste software para fins comerciais é **proibido** sem a permissão explícita e por escrito do autor.
-- **Garantias**: Este software é fornecido "como está", sem garantias de qualquer tipo. O autor não se responsabiliza por quaisquer danos ou problemas causados pela utilização deste software.
-- **Atribuição**: Ao utilizar ou distribuir este software, você deve fornecer a devida atribuição ao autor original, Paulo Eduardo Moretti.
-
-## Limitação de Responsabilidade
-
-Em nenhuma hipótese o autor será responsável por qualquer dano direto, indireto, incidental, especial, exemplar ou consequente (incluindo, mas não se limitando a, aquisição de bens ou serviços substitutos; perda de uso, dados ou lucros; ou interrupção de negócios) decorrente de qualquer forma do uso deste software, mesmo que advertido da possibilidade de tais danos.
 
 ## Alterações e Revogação
 
