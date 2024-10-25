@@ -45,9 +45,9 @@ Você precisará adicionar sua chave de API do SendGrid ao projeto para ativar a
 2. Adicione sua Chave de API ao projeto
 - No arquivo backend.js, localize a linha:
 
-´´´bash
+```bash
 sgMail.setApiKey('SUA_CHAVE_API_SENDGRID');
-
+```
 - Substitua 'SUA_CHAVE_API_SENDGRID' pela sua chave real do SendGrid.
 
 3. Verifique o E-mail do Remetente
@@ -59,19 +59,19 @@ Certifique-se de que o endereço de e-mail que você está usando no campo from 
 
 - No diretório raiz do projeto, execute o seguinte comando para iniciar o backend:
 
-´´´bash
+```
 node backend.js
-
+````
 - Isso iniciará o servidor na porta 3000.
 
-Como Usar
+## Como Usar:
 Acesse a aplicação: Abra o navegador e vá para o endereço do seu servidor local (por exemplo, http://localhost:3000).
 
 Adicione uma nova tarefa: Após o login, você poderá adicionar novas tarefas pela interface. Assim que uma tarefa for adicionada, um e-mail será enviado para o endereço de e-mail registrado do usuário notificando sobre a nova tarefa.
 
 Estrutura de Arquivos
 
-´´´bash
+```
 task-manager/
 │
 ├── backend.js             # Backend Node.js para lidar com notificações por e-mail e gerenciamento de tarefas
@@ -81,10 +81,11 @@ task-manager/
 ├── style.css              # CSS básico para estilizar a interface
 ├── package.json           # Dependências do projeto e scripts
 └── README.md              # Documentação do projeto
+````
 
 ## Exemplo do Backend (backend.js)
 
-´´´bash
+````
 const express = require('express');
 const sgMail = require('@sendgrid/mail');
 const app = express();
@@ -118,7 +119,7 @@ app.post('/enviar-email', (req, res) => {
 app.listen(3000, () => {
     console.log('Servidor rodando na porta 3000');
 });
-
+````
 ## Contribuição
 
 - Faça um fork do projeto.
