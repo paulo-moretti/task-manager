@@ -17,18 +17,22 @@ Para rodar este projeto, você precisará de:
 - Uma conta SendGrid com uma chave de API (registre-se em SendGrid).
 
 ## Instalação:
-
-### Clone este repositório:
-- git clone https://github.com/SEU_USUARIO/task-manager.git
+- Clone este repositório:
+````
+git clone https://github.com/SEU_USUARIO/task-manager.git
+````
 
 ### Navegue até o diretório do projeto:
-- cd task-manager
+````
+cd task-manager
+````
 
 ### Instale as dependências necessárias:
 Execute o comando a seguir para instalar os pacotes necessários do Node.js:
+````
 npm install
-
-### Isso irá instalar:
+````
+#### Isso irá instalar:
 
 - express (para o servidor backend)
 - @sendgrid/mail (para envio de e-mails)
@@ -48,7 +52,7 @@ Você precisará adicionar sua chave de API do SendGrid ao projeto para ativar a
 ```bash
 sgMail.setApiKey('SUA_CHAVE_API_SENDGRID');
 ```
-- Substitua 'SUA_CHAVE_API_SENDGRID' pela sua chave real do SendGrid.
+- Substitua 'INSIRA SUA CHAVE' pela sua chave real do SendGrid.
 
 3. Verifique o E-mail do Remetente
 Certifique-se de que o endereço de e-mail que você está usando no campo from no código esteja verificado no SendGrid. Você pode verificar seu e-mail ou domínio na seção Sender Authentication da sua conta SendGrid.
