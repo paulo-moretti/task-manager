@@ -50,9 +50,9 @@ Você precisará adicionar sua chave de API do SendGrid ao projeto para ativar a
 - No arquivo backend.js, localize a linha:
 
 ```bash
-sgMail.setApiKey('SUA_CHAVE_API_SENDGRID');
+sgMail.setApiKey('insira sua chave');
 ```
-- Substitua 'INSIRA SUA CHAVE' pela sua chave real do SendGrid.
+- Substitua 'insira sua chave' pela sua chave real do SendGrid.
 
 3. Verifique o E-mail do Remetente
 Certifique-se de que o endereço de e-mail que você está usando no campo from no código esteja verificado no SendGrid. Você pode verificar seu e-mail ou domínio na seção Sender Authentication da sua conta SendGrid.
