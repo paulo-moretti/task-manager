@@ -132,20 +132,6 @@ app.listen(3000, () => {
 - Faça o push para o branch (git push origin nova-feature).
 - Abra um pull request.
 
-# Licença de Uso 
-
-Este software foi desenvolvido por Paulo Eduardo Moretti. Ao utilizar, modificar ou distribuir este software, você concorda com os seguintes termos:
-
-## Permissões
-
-- **Uso pessoal**: Você pode utilizar este software para uso pessoal e projetos próprios.
-- **Modificações**: Você pode modificar o código-fonte para adaptar o software às suas necessidades, desde que as modificações sejam mantidas em caráter privado ou interno.
-- **Distribuição**: Você pode distribuir o software original ou modificado, desde que mantenha esta licença incluída em todas as cópias distribuídas.
-
-## Alterações e Revogação
-
-O autor reserva-se o direito de alterar esta licença a qualquer momento, sem aviso prévio, desde que tal alteração seja devidamente registrada no repositório oficial do projeto. Esta licença poderá ser revogada a qualquer momento em caso de violação de quaisquer de seus termos.
-
 ---
 
 © 2024 Paulo Eduardo Moretti. Todos os direitos reservados.
